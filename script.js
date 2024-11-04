@@ -10,8 +10,11 @@ const getcompchoice=()=>{
 }
 
 const drawgame=()=>{
+    let message=document.querySelector("#message");
     console.log("draw");
+    message.innerText="draw";
 }
+
 
 const showwinner=(userwin,compchoie)=>{
     let message=document.querySelector("#message");
